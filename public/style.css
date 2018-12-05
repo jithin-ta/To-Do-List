@@ -1,0 +1,77 @@
+input[type=submit]
+	{
+		border: none;
+	}
+	.text-center
+	{
+		text-align: center;
+	}
+	form.form-inline input.field
+	{
+		padding-left: 6px;
+	}
+	.menu-bar a,input[type=submit].login
+	{
+		padding: 5px 20px;
+	    background: #337ab7;
+	    color: #fff;
+	    text-decoration: none;
+	    border-radius: 3px;
+	    transition: all 0.2s linear;
+	    -webkit-transition: all 0.2s linear;
+	    -moz-transition: all 0.2s linear;
+	    -o-transition: all 0.2s linear;
+	    -ms-transition: all 0.2s linear;
+	}
+	.menu-bar a:hover,input[type=submit].login:hover
+	{
+		background: #fff;
+	    color: #337ab7;
+	    border: 1.5px solid #337ab7;
+	}
+	div.container
+	{
+		width: 100%;
+	    margin-top: 30vh;
+	    text-align: center;
+	}
+	section.register div.container, .register.container
+	{
+		margin-top: 30px;
+	}
+
+	.register .form-horizontal .form-group,
+	.register .form-horizontal .input-section
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.margin-center
+	{
+		margin: auto;
+}
+
+.menu-bar
+{
+	padding: 30px;
+}
+.menu-bar a
+{
+	margin: 5px;
+}
+
+
+*[role="form"] 
+{
+	max-width: 700px;
+	padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin: auto;
+    margin-bottom: 1em;
+}
+
